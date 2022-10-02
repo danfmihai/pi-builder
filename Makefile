@@ -31,7 +31,7 @@ STAGES ?= __init__ os pikvm-repo watchdog no-bluetooth no-audit ro ssh-keygen __
 
 HOSTNAME ?= pi
 LOCALE ?= en_US
-TIMEZONE ?= Europe/Moscow
+TIMEZONE ?= America/New_York
 #REPO_URL ?= http://mirror.yandex.ru/archlinux-arm
 REPO_URL = http://de3.mirror.archlinuxarm.org
 PIKVM_REPO_URL ?= https://pikvm.org/repos
