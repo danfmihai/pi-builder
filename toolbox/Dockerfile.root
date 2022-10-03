@@ -8,6 +8,7 @@ RUN pacman --noconfirm -Syu \
 		parted \
 		dosfstools \
 		rsync \
+		linux-firmware-qlogic \
 	&& (pacman --noconfirm -Sc || true)
 
 RUN mkdir /tools
