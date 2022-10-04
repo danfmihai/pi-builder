@@ -30,6 +30,7 @@ RUN pacman --noconfirm -Syy \
 	&& pacman --needed --noconfirm -S \
 		base \
 		base-devel \
+		devtools \
 		vim \
 		colordiff \
 		tree \
