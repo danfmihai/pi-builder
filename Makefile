@@ -56,7 +56,7 @@ _BUILD_DIR = ./.build
 _BUILDED_IMAGE_CONFIG = ./.builded.conf
 
 _QEMU_GUEST_ARCH = $(ARCH)
-_QEMU_STATIC_BASE_URL = http://mirror.yandex.ru/debian/pool/main/q/qemu
+_QEMU_STATIC_BASE_URL = http://us.debian.org/debian/pool/main/q/qemu		#http://mirror.yandex.ru/debian/pool/main/q/qemu
 _QEMU_COLLECTION = qemu
 _QEMU_STATIC = $(_QEMU_COLLECTION)/qemu-$(_QEMU_GUEST_ARCH)-static
 _QEMU_STATIC_GUEST_PATH ?= $(QEMU_PREFIX)/bin/qemu-$(_QEMU_GUEST_ARCH)-static
