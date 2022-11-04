@@ -1,4 +1,4 @@
-RUN rm -R /var/lib/pacman/sync/ && pkg-install watchdog
+RUN pkg-install watchdog
 
 COPY stages/watchdog/watchdog.conf /etc/watchdog.conf
 
